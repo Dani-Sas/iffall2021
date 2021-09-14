@@ -1,0 +1,41 @@
+            p {
+                text-indent: 10mm;
+                list-style-type:decimal;
+                font-size: 20px;
+                line-height: 35%;
+                
+            }
+            
+            h1 {
+                font-size: 70px;
+                font-weight: bold;
+                text-align: center;
+                font-family: 'Arial';
+                line-height: 200%;
+            }
+            h1.solid {border-bottom: 3mm ; border-radius: 3mm;border-top: transparent; border-left: transparent; border-right: transparent; border-bottom: solid; border-bottom-width: 2mm;}
+            h2 {
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+                font-family: 'Arial';
+                line-height: 100%;
+                color: thistle;
+            }
+            .actor{
+                font-size: 22px;
+                font-weight: bold;
+            }
+            #special-paragraph{
+               font-size: 50px; 
+            }
+            .quote{
+                font-size: 20px;  
+            }
+            .direction{
+                font-size: 20px;
+            }
+            .space{
+                line-height: 200%;
+                color: transparent;
+            }
