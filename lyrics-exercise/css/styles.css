@@ -1,0 +1,48 @@
+p {
+    list-style-type:decimal;
+    font-size: 20px;
+    line-height: 35%;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Arial';
+    line-height: 100%;
+    color:rgb(37, 0, 54);
+}
+h2.solid {border-bottom: 3mm ;border-top: transparent; border-left: transparent; border-right: transparent; border-bottom: solid; border-bottom-width: 2mm; border-color:rgb(37, 0, 54);}
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Arial';
+    line-height: 200%;
+    color: rgb(37, 0, 54);
+}
+.actor{
+    font-size: 22px;
+    font-weight: bold;
+}
+#special-paragraph{
+   font-size: 50px; 
+}
+.line{
+    font-size: 30px;  
+}
+.part{
+    font-size: 30px;
+}
+.space{
+    line-height: 200%;
+    color: transparent;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
