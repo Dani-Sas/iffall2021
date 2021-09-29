@@ -1,0 +1,16 @@
+.pork{
+    width: 40%;
+}
+.bio{
+    color: black;
+}
+html{
+    font-family: "Raleway";
+}
+h1{
+    font-size: 30pt;
+}
+p{
+    font-weight: bold;
+    color: rgb(147, 103, 177);
+}
