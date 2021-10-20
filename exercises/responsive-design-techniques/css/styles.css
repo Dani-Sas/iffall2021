@@ -1,0 +1,38 @@
+body{
+    margin-left: auto; margin-right: auto;
+    width: 90%;
+    max-width: 800px;
+}
+aside{
+    width: 170px;
+    margin: 10px;
+    font-size: 0.8rem;
+
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+ul{
+    padding: 0;
+    display: flex;
+    
+}
+@media (min-width: 640px) {
+        body{background-color:#eaf6ff;}
+        
+}
+
+@media (max-width: 500px) {
+    h1{font-size: 1.5rem;}
+}
+
+@media (min-width: 640px) {
+    h1{font-size: 2.5rem;}
+}
+
+
+
+
+  
