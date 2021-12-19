@@ -1,0 +1,357 @@
+
+h1{
+    font-size: 30px;
+    margin-bottom: 40px;  
+}
+
+body{
+    max-width: 10000px;
+    margin: 2rem;
+    width: 1200px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float:left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 50px;
+    padding: 0; 
+}
+
+#btn_coke img{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+text-align: center;
+margin: auto;
+margin-top: auto;
+margin-top: 50px;
+padding: 0; 
+}
+#btn_coke:hover img{
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+}
+#btn_ibm img{
+    height: 75px;
+    text-align: center;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 100px;
+    padding: 0;
+    }
+#btn_ibm:active img{
+transform: translate(0px, 0px) scale(0.7);
+}
+#btn_nerf img{
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 100px;
+    padding: 0;
+    }
+#btn_nerf:hover img{
+    transform: rotate3d(0,1,1,90deg);
+    transition: transform 0.5s;    
+}
+#btn_nerf:active img{
+    transform: rotate3d(0,1,1,360deg);
+    transition: transform 0.5s;    
+}
+#btn_ideo img{
+        width: 150px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 50px;
+        padding: 0;
+        }
+#btn_ideo:hover img{
+    transform: scale(0.7);
+    transition: transform 0.5s; 
+}
+#btn_ideo:active img{
+    transform: scale(60);
+    transition: transform 0.5s; 
+}
+#btn_lyft img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 75px;
+        padding: 0;
+        }
+#btn_lyft:hover img{
+    transform: rotate3d(1,1,0,70deg);
+    transition: transform 0.5s;
+}
+#btn_lyft:active img{
+    transform: rotate3d(1,1,0,0deg);
+    transition: transform 0.5s;
+}
+#btn_harley img{
+        width: 150px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 50px;
+        padding: 0;
+        }
+#btn_harley:hover img{
+    transform: rotate3d(0,0,1,45deg);
+    transition: transform 0.5s; 
+}
+#btn_harley:active img{
+    transform: translate(-800px,0);
+    transition: transform 0.5s; 
+}
+@keyframes burn {
+    from { transform: rotate(-20deg); }
+    33% { transform: rotate(10deg); }
+    66% { transform: rotate(-10deg); }
+    to { transform: rotate(20deg); }
+  }
+#btn_samsung img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 25px;
+        padding: 0;
+        }
+#btn_samsung:hover img{
+display: block;
+animation-name: burn;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+#btn_dime img{
+    filter: invert(100);
+        width: 150px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 50px;
+        padding: 0;
+        }
+#btn_dime:hover img{
+    filter: invert(0);
+}
+#btn_dime:active img{
+    filter: invert(100);
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+}
+#btn_nike img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 100px;
+        padding: 0;
+        }
+#btn_nike:hover img{
+transform: rotate(-5deg) translate(10px, -10px) scale(1);
+transition: transform 0.5s; 
+}
+#btn_nike:active img{
+   filter: opacity(0);
+   transition: filter 0.5s;
+    }
+    @keyframes cartoon {
+        from { transform: rotate(-20deg)translate(50px, 50px); }
+        33% { transform: rotate(10deg); }
+        66% { transform: rotate(-10deg)translate(-50px, 50px); }
+        to { transform: rotate(20deg); }
+      }
+#btn_cn img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 75px;
+        padding: 0;
+        }
+#btn_cn:hover img{
+    display: block;
+    animation-name: cartoon;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+}
+#btn_botanical img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 25px;
+        padding: 0;
+        }
+#btn_botanical:hover img{
+    transform: scale(0.7);
+    transition: transform 0.5s;
+}
+#btn_botanical:active img{
+    transform: scale(1.3);
+    transition: transform 0.5s;
+}
+@keyframes hogan {
+    from { transform: translate(0px, -20px); }
+    33% {  }
+    66% { transform: translate(0px, 20px); }
+    to {  }
+  }
+#btn_hogan img{
+        width: 150px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 50px;
+        padding: 0;
+        }
+#btn_hogan:hover img{
+    display: block;
+    animation-name: hogan;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;   
+}
+#btn_moo img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 100px;
+        padding: 0;
+        }
+#btn_moo:hover img{
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.267) ;
+    transition: background-color 0.2s;
+
+}
+#btn_moo:active img{
+transform: scale(.8);
+transition: transform 0.5s;
+}
+#btn_fit img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 25px;
+        padding: 0;
+        }
+#btn_fit:hover img{
+    transform: rotate(1000deg) scale(0);
+    transition: transform 4s;
+}
+#btn_kitten img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 25px;
+        padding: 0;
+        }
+#btn_kitten:hover img{
+transform: rotate(-45deg);
+transition: transform 0.5s;
+}
+#btn_kitten:active img{
+    transform: scale(50);
+    transition: transform 0.5s;
+}
+#btn_npr img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 100px;
+        padding: 0;
+        }
+#btn_npr:hover img{
+transform: scale(1.2);
+transition: transform 0.5s;
+}
+#btn_npr:active img{
+    transform: scale(.8);
+    filter: hue-rotate(360deg);
+    transition: filter 10s;
+    }
+#btn_jude img{
+        width: 150px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 75px;
+        padding: 0;
+        }
+#btn_jude:hover img{
+filter: saturate(1.3);
+transition: filter .5s;
+}
+#btn_jude:active img{
+    filter: saturate(.9);
+    transition: filter .5s;
+}
+#btn_newyorker img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 100px;
+        padding: 0;
+        }
+#btn_newyorker:hover img{
+    transform: translate(0,-15px);
+    transition: transform .5s;
+}
+#btn_newyorker:active img{
+    transform: scale(0.7);
+    transition: transform 0.5s;
+}
+#btn_electra img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 100px;
+        padding: 0;
+        }
+#btn_electra:hover img{
+transform: scale(0.9);
+transition: transform 0.5s;
+}
+#btn_electra:active img{
+    transform: rotate3d(1,0,0,90deg);
+    transition: transform 0.2s; 
+}
+#btn_oldnavy img{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-top: 100px;
+        padding: 0;
+        }
+#btn_oldnavy:hover img{
+    filter: hue-rotate(360deg);
+    transition: filter 4s;
+}
